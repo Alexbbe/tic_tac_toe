@@ -1,0 +1,96 @@
+@import url("http://fonts.cdnfonts.com/css/common-pixel");
+
+* {
+  margin: 0;
+}
+
+header {
+  background-color: black;
+  padding: 30px;
+  text-align: center;
+}
+
+.container {
+  width: 1600px;
+  background-color: brown;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.menu {
+  padding: 30px;
+}
+
+.grid-table {
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
+  width: 600px;
+  height: 600px;
+  align-content: center;
+  top: 200px;
+  left: 500px;
+  right: 500px;
+  padding: 50px;
+}
+
+.title-game {
+  font-family: "Common Pixel", sans-serif;
+  font-size: 80px;
+  color: white;
+}
+
+.grid-cell {
+  width: 200px;
+  height: 200px;
+  border: 5px solid rgb(0, 0, 0);
+}
+
+.btn {
+  width: 200px;
+  height: 200px;
+  font-family: "Common Pixel", sans-serif;
+  font-size: 100px;
+}
+.btn:hover {
+  background-color: greenyellow;
+}
+
+.player_won {
+  width: 600px;
+  height: 300px;
+  background-color: green;
+  position: absolute;
+  left: 600px;
+  top: 200px;
+  box-shadow: 5px 5px 12px 12px rgb(54, 2, 2);
+}
+
+.hidden {
+  display: none;
+}
+
+.overlay {
+  filter: blur(7px);
+}
+
+.close_button {
+  width: 60px;
+  height: 50px;
+  position: absolute;
+  font-weight: bolder;
+  right: 0px;
+  font-family: "Common Pixel", sans-serif;
+  border: black 5px;
+  border-style: solid;
+  background-color: rgb(165, 151, 24);
+}
+
+.player_message {
+  font-size: 50px;
+  position: absolute;
+  top: 100px;
+  left: 40px;
+  font-family: "Common Pixel", sans-serif;
+}

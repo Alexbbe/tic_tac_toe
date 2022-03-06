@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Tic Tac Toe</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <h1 class="title-game">Tic Tac Toe</h1>
+    </header>
+    <main>
+      <div class="container">
+        <div class="grid-table">
+          <div class="grid-cell item1">
+            <button class="btn button1"></button>
+          </div>
+          <div class="grid-cell item2">
+            <button class="btn button2"></button>
+          </div>
+          <div class="grid-cell item3">
+            <button class="btn button3"></button>
+          </div>
+          <div class="grid-cell item4">
+            <button class="btn button4"></button>
+          </div>
+          <div class="grid-cell item5">
+            <button class="btn button5"></button>
+          </div>
+          <div class="grid-cell item6">
+            <button class="btn button6"></button>
+          </div>
+          <div class="grid-cell item7">
+            <button class="btn button7"></button>
+          </div>
+          <div class="grid-cell item8">
+            <button class="btn button8"></button>
+          </div>
+          <div class="grid-cell item9">
+            <button class="btn button9"></button>
+          </div>
+        </div>
+        <div class="menu">
+          <h2>Choose Player!</h2>
+          <p class="game_message">Hi! Please type name for players names!</p>
+          <label>Type first player name (X)</label>
+          <input class="name_player1" type="text" />
+          <label>Type second player name (O)</label>
+          <input class="name_player2" type="text" />
+          <h2>Player 1 (X):</h2>
+          <p class="pl1_name"></p>
+          <h2>Player 2 (O):</h2>
+          <p class="pl2_name"></p>
+        </div>
+      </div>
+      <div class="player_won hidden">
+        <button class="close_button">X</button>
+        <p class="player_message"></p>
+      </div>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>
